@@ -7,7 +7,7 @@
 ![Release](https://img.shields.io/badge/Release-v1.0-orange.svg)
 
 **SSH Next** is a lightweight desktop SSH client built with **Python + PyQt5**.  
-It provides a simple GUI to connect to remote Linux/Windows servers via SSH and execute commands in a terminal-like environment.
+It provides a simple GUI to connect to remote Linux/Windows servers via SSH and execute commands in a terminal like environment.
 
 ---
 
@@ -15,8 +15,8 @@ It provides a simple GUI to connect to remote Linux/Windows servers via SSH and 
 
 - Secure SSH connection using **Paramiko**
 - Clean and simple **PyQt5 GUI**
-- Built-in terminal-like command interface
-- Real-time output streaming from server
+- Built in terminal-like command interface
+- Real time output streaming from server
 - Supports username, password, host, and port
 - Lightweight and fast
 - Interactive shell session support
