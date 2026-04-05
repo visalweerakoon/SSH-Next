@@ -1,4 +1,4 @@
-# SSH Next 
+# SSH Next
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![PyQt5](https://img.shields.io/badge/GUI-PyQt5-green.svg)
@@ -7,23 +7,23 @@
 ![Release](https://img.shields.io/badge/Release-v1.0-orange.svg)
 
 **SSH Next** is a lightweight desktop SSH client built with **Python + PyQt5**.  
-It provides a simple GUI to connect to remote Linux/Windows servers via SSH and execute commands in a terminal-like interface.
+It provides a simple GUI to connect to remote Linux/Windows servers via SSH and execute commands in a terminal-like environment.
 
 ---
 
-##  Features
+## Features
 
--  Secure SSH connection using **Paramiko**
--  Clean and simple **PyQt5 GUI**
--  Built-in terminal-like command interface
--  Real-time output streaming from server
--  Supports username, password, host, and port
--  Lightweight and fast
--  Interactive shell session support
+- Secure SSH connection using **Paramiko**
+- Clean and simple **PyQt5 GUI**
+- Built-in terminal-like command interface
+- Real-time output streaming from server
+- Supports username, password, host, and port
+- Lightweight and fast
+- Interactive shell session support
 
 ---
 
-##  How It Works
+## How It Works
 
 SSH Next establishes an SSH connection using **Paramiko** and opens an interactive shell channel.
 
@@ -35,12 +35,13 @@ SSH Next establishes an SSH connection using **Paramiko** and opens an interacti
 
 ---
 
-##  Requirements
+## Requirements
 
 - Python 3.10+
 - PyQt5
 - Paramiko
 
-### Install dependencies:
+### Install dependencies using requirements.txt
+
 ```bash
-pip install PyQt5 paramiko
+pip install -r requirements.txt
