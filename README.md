@@ -15,7 +15,7 @@ It provides a simple GUI to connect to remote Linux/Windows servers via SSH and 
 
 - Secure SSH connection using **Paramiko**
 - Clean and simple **PyQt5 GUI**
-- Built in terminal-like command interface
+- Built in terminal like command interface
 - Real time output streaming from server
 - Supports username, password, host, and port
 - Lightweight and fast
